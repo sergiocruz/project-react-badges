@@ -1,0 +1,32 @@
+/* Styles */
+body {
+  margin: 5px;
+}
+
+#app {
+  font: 14px, 'Helvetica Neue', Helvetica, Aria, sanf-serif;
+  color: #4D4D4D;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.media {
+  background: #EAEAEA;
+  border-radius: 8px;
+  border: 1px solid #EEE;
+  display: inline-block;
+  padding: 15px;
+}
+
+.media img {
+  height: auto;
+  width: 80px;
+}
+
+@media (min-width: 1020px) {
+  .media {
+    height: 110px;
+    width: 48%;
+    margin-right: 2%;
+  }
+}
